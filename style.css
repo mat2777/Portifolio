@@ -9,3 +9,28 @@
     --cor-branco: #ffffff;
     --cor-preto: #000000;
 }
+
+#body {
+    background-color: var(--cor-azulclaro);
+}
+
+#rodape {
+    background-color: var(--cor-escura);
+    color: var(--cor-branco);
+}
+
+#ancora {
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-size: 20px;
+    transition:  color 0.3s ease;
+}
+#ancora:hover {
+    color: var(--cor-principal);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.habilidades {
+    text-decoration: none;
+}
